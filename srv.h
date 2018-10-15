@@ -14,7 +14,8 @@
 #include <sys/wait.h>
 #include <signal.h>
 
-#define PORT "3501" // порт для подключения пользователей
+#define PORT "3504" // порт для подключения пользователей
 #define BACKLOG 10 // размер очереди ожидающих подключений
+#define MAXDATASIZE 100 // максимальная длина принимаемых за раз данных
 
 #endif
